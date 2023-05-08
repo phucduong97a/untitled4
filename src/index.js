@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Login from "./Pages/Login/Login";
+// import Login from "./Pages/Login/Login";
+import  Form from "./Pages/Form/Form";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Login />
-  </React.StrictMode>
+  // <React.StrictMode>
+  //   <Login />
+  // </React.StrictMode>
+
+<React.StrictMode>
+    <Form/>
+</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
